@@ -12,8 +12,6 @@ This project implements a coarse-to-fine deep learning approach for the segmenta
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
