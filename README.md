@@ -54,5 +54,4 @@ pip install -r requirements.txt
 - I would like to express our deepest gratitude to all those who have contributed to the success of this project.
 
 - First and foremost, I would like to thank the creators and contributors of the REFUGE dataset for providing the high-quality fundus eye images that were crucial for the development and testing of the segmentation method.
-- 
 - I also wish to acknowledge the authors of the paper "Automated segmentation of optic disc and cup depicted on color fundus images using a distance-guided deep learning strategy" published in Biomedical Signal Processing and Control.
