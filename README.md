@@ -4,14 +4,16 @@ This project implements a coarse-to-fine deep learning approach for the segmenta
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-  - [Coarse Segmentation](#coarse-segmentation)
-  - [Fine Segmentation](#fine-segmentation)
-- [Installation](#installation)
-- [Results](#results)
-- [Acknowledgements](#acknowledgements)
+- [Coarse-to-Fine Deep Learning Method for OC and OD Segmentation in Fundus Eye Images](#coarse-to-fine-deep-learning-method-for-oc-and-od-segmentation-in-fundus-eye-images)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Dataset](#dataset)
+  - [Methodology](#methodology)
+    - [Coarse Segmentation](#coarse-segmentation)
+    - [Fine Segmentation](#fine-segmentation)
+  - [Installation](#installation)
+  - [Results](#results)
+  - [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -49,7 +51,8 @@ pip install -r requirements.txt
 
 ## Acknowledgements
 
--I would like to express our deepest gratitude to all those who have contributed to the success of this project.
+- I would like to express our deepest gratitude to all those who have contributed to the success of this project.
 
--First and foremost, I would like to thank the creators and contributors of the REFUGE dataset for providing the high-quality fundus eye images that were crucial for the development and testing of the segmentation method.
--I also wish to acknowledge the authors of the paper "Automated segmentation of optic disc and cup depicted on color fundus images using a distance-guided deep learning strategy" published in Biomedical Signal Processing and Control.
+- First and foremost, I would like to thank the creators and contributors of the REFUGE dataset for providing the high-quality fundus eye images that were crucial for the development and testing of the segmentation method.
+- 
+- I also wish to acknowledge the authors of the paper "Automated segmentation of optic disc and cup depicted on color fundus images using a distance-guided deep learning strategy" published in Biomedical Signal Processing and Control.
