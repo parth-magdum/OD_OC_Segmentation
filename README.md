@@ -10,7 +10,6 @@ This project implements a coarse-to-fine deep learning approach for the segmenta
   - [Coarse Segmentation](#coarse-segmentation)
   - [Fine Segmentation](#fine-segmentation)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [Acknowledgements](#acknowledgements)
 
@@ -30,11 +29,11 @@ The segmentation process is divided into two stages: coarse segmentation and fin
 
 ### Coarse Segmentation
 
-In the first stage, a coarse segmentation model is trained to identify the approximate location and boundaries of the OC and OD. This model uses object annotations to create initial segmentation masks.
+In the first stage, a coarse segmentation model is trained to identify the approximate location and boundaries of the OC and OD. This model uses object annotations to create initial segmentation masks also this model refines the boundaries of the OC and OD using boundary annotations to improve the accuracy of the segmentation.
 
 ### Fine Segmentation
 
-In the second stage, a fine segmentation model is applied to the coarse segmentation results. This model refines the boundaries of the OC and OD using boundary annotations to improve the accuracy of the segmentation.
+In the second stage, a fine segmentation model is applied to the Distance Synthetic Images (DSI) of coarse segmentation results. This helps identify centers of model better causing finer segmentation.
 
 ## Installation
 
@@ -42,3 +41,15 @@ To run this project, you need to have Python and the required libraries installe
 
 ```bash
 pip install -r requirements.txt
+
+```
+## Results
+- The coarse segmentation achieved a Dice Score of 0.920 on optic disk and 0.878 on optic cup on the REFUGE test set.
+- The fine segmentation achieved a Dice Score of 0.926 on optic disk and 0.893 on optic cup on the REFUGE test set.
+
+## Acknowledgements
+
+-I would like to express our deepest gratitude to all those who have contributed to the success of this project.
+
+-First and foremost, I would like to thank the creators and contributors of the REFUGE dataset for providing the high-quality fundus eye images that were crucial for the development and testing of the segmentation method.
+-I also wish to acknowledge the authors of the paper "Automated segmentation of optic disc and cup depicted on color fundus images using a distance-guided deep learning strategy" published in Biomedical Signal Processing and Control.
